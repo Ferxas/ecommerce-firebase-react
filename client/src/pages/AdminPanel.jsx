@@ -43,6 +43,7 @@ const AdminPanel = () => {
       toast.success("Producto agregado con imagen local");
     } catch (error) {
       toast.error("Error al subir la imagen");
+      console.error("Error:", error);
     }
   };
 
